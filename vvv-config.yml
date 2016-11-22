@@ -1,11 +1,36 @@
 ---
 sites:
-  wordpress-default:
-    repo: https://github.com/Varying-Vagrant-Vagrants/vvv-wordpress-default.git
-    vm_dir: '/srv/www/wordpress-default-provisioner'
-  wordpress-develop:
-    repo: https://github.com/Varying-Vagrant-Vagrants/vvv-wordpress-develop.git
-    vm_dir: '/srv/www/wordpress-develop-provisioner'
+  test:
+  test2:
+
+  # All options defaults that can be used in a site config
+  # wordpress-default:
+  #   # The git url for this site
+  #   # e.g. https://github.com/Varying-Vagrant-Vagrants/vvv-wordpress-default.git
+  #   repo: ''
+  #   # The directory on the vm where the site lives
+  #   # e.g.  '/srv/www/wordpress-default'
+  #   vm_dir: /srv/www/{SITE NAME}
+  #   # The directory on the host where the site lives
+  #   # e.g.  '/PATH TO VVV/www/wordpress-default'
+  #   local_dir: vagrant_dir/www/{SITE NAME}
+  #   # Weather to use the sites Customfile if one is found
+  #   allow_customfile: false 
+  #   # Weather to run this sites provisioner
+  #   skip_provisioning: false
+
+  #   # If you are only providing a repo url to your site config 
+  #   multisite: https://github.com/Varying-Vagrant-Vagrants/vvv-multisite.git
+
+  #   # Site not stored in git accepting the default options
+  #   site_name:
+
+  #wordpress-default:
+  #  repo: https://github.com/Varying-Vagrant-Vagrants/vvv-wordpress-default.git
+  #  vm_dir: '/srv/www/wordpress-default-provisioner'
+  #wordpress-develop:
+  #  repo: https://github.com/Varying-Vagrant-Vagrants/vvv-wordpress-develop.git
+  #  vm_dir: '/srv/www/wordpress-develop-provisioner'
   #wordpress-trunk:
   #  repo: https://github.com/Varying-Vagrant-Vagrants/vvv-wordpress-trunk.git
   #  vm_dir: /srv/www/wordpress-trunk-provisioner
