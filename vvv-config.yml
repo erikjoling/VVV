@@ -2,6 +2,9 @@
 sites:
   test:
   test2:
+  countrysidedating:
+  henneken:
+  preuter:
 
   # All options defaults that can be used in a site config
   # wordpress-default:
