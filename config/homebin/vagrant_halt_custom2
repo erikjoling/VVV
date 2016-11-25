@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# This script is run whenever `vagrant halt` is used to power off
+# the virtual machine. This is the customized behavior. See vagrant_halt
+# in your local VVV/config/homebin directory for more information
+
+# Backup databases
+db_backup
+
+# Backup websites
+www_backup
