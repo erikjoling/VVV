@@ -42,6 +42,9 @@
 # Same goes for project backups
 /project-backups/*
 
+# Also not share hosts link
+/hosts.lnk
+
 # Log files should be ignored.
 /log/**/*.log
 

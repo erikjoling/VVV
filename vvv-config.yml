@@ -5,6 +5,8 @@ sites:
   countrysidedating:
   henneken:
   preuter:
+  erik_joling:
+  van_eeks:
 
   # All options defaults that can be used in a site config
   # wordpress-default:
