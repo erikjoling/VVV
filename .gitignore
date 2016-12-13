@@ -25,9 +25,6 @@
 # No need to share individual site configs with each other
 /config/nginx-config/sites/*.conf
 
-# No need to share custom vvv configuration
-/vvv-custom.yml
-
 # Ignore anything in the 'custom' directory in config
 /config/custom/*
 
