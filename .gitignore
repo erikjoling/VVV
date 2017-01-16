@@ -42,7 +42,7 @@
 /database/data/*
 
 # Same goes for project backups
-/project-backups/*
+/backups/*
 
 # Also not share hosts link
 /hosts.lnk
